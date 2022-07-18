@@ -84,3 +84,10 @@ document.getElementById("formData").innerHTML += "<Br>"
 
 }
 
+function resetPage(){
+
+    document.getElementById("formData").remove("innerHTML");
+    location.reload();
+
+}
+
