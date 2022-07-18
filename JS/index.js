@@ -1,12 +1,12 @@
 
-let milk1 = document.getElementById('shadeData1');
-let milk2 = document.getElementById('shadeData2');
-let milk3 = document.getElementById('shadeData3');
-let milk4 = document.getElementById('shadeData4');
-let milk5 = document.getElementById('shadeData5');
-let milk6 = document.getElementById('shadeData6');
+let milk1;
+let milk2;
+let milk3;
+let milk4;
+let milk5;
+let milk6
 
 
 function milkSummer() {
-    document.getElementById('submit').innerHTML="The total milk produced today is liters.";
+    document.getElementById('submit').innerHTML="The total milk produced today is" + (milk1+milk2+milk3+milk4+milk5+milk6) +" liters.";
 }
