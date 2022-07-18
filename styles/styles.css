@@ -79,8 +79,8 @@ form{
 }
 
 .output{
-    margin: 15px auto;
-    width: 80%;
+    margin: 15px 15px;
+    width: 70%;
     padding: 5px auto;
     display: flex;
     flex-direction: column;
@@ -88,6 +88,7 @@ form{
     color: black;
     font-style: italic;
     text-align: center;
+    border-radius: 30px 0;
 }
 
 button{
