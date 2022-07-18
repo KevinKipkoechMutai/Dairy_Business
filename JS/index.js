@@ -1,4 +1,6 @@
-function reportGenerate{
+function reportGenerate() {
+
+    event.preventDefault();
 data =[];
 
 data[0] = data['shadeData1']=parseInt(document.getElementById('shadeData1').value);
@@ -81,3 +83,4 @@ document.getElementById("formData").innerHTML += "<Br>"
     document.getElementById("formData").innerHTML += "<Br>"
 
 }
+
