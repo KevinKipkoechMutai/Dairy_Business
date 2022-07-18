@@ -63,8 +63,27 @@ fieldset{
     flex-direction: column;
     float: left;
     padding: auto;
+    border: none;
+    padding: 2rem 5px;
+    border-bottom: 3px solid #3b3b4f;
 }
 
 label{
-    margin: 5px auto;
+    margin: 0.5rem 0;
+    display: block;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#submit{
+    background-color: midnightblue;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+	width: 100%;
+    min-height: 2em;
+
 }
