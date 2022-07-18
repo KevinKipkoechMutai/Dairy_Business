@@ -50,3 +50,21 @@ nav{
     align-items: center;
     margin: 12px auto;
 }
+
+.data{
+    display: flex;
+    flex-direction: row;
+    margin: 25px auto;
+    justify-content: space-between;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: auto;
+}
+
+label{
+    margin: 5px auto;
+}
