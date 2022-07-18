@@ -84,6 +84,9 @@ form{
     padding: 5px auto;
     display: flex;
     flex-direction: column;
+    background-color: aliceblue;
+    color: black;
+    font-style: italic;
 }
 
 button{
