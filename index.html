@@ -7,6 +7,50 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <script src="JS/index.js"></script>
+        <main>
+            <nav>
+                <div class="logo">
+                    <img height="50" width="60" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/dairy-farm-cow-logo-design-template-3d4014bf8fb4ffd56fb236a9aaf63530_screen.jpg?ts=1598440018">
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Data</a></li>
+                        <li><a href="#">Description</a></li>
+                        <li><a href="#">Order</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <hr>
+            <div class="intro">
+                <h1>KK Dairy Farm</h1>
+                <p>KK Dairy Farm comprises 240 cattle housed in 6 different shades.</p>
+                <h2>Analytics and Inventory</h2>
+                <p>All milk production data is entered here for inventory management.</p>
+            </div>
+            <div class="data">
+                <div class="input">
+                    <form action="#" id="submit">
+                        <h3>Shade-Based Data</h3>
+                        <fieldset>
+                            <label>Enter liters produced from Shade A<input min="0" type="number" id="shadeData1" name="shadeB" required/></label>
+                            <label>Enter liters produced from Shade C<input min="0" type="number" id="shadeData2" name="shadeA" required/></label>
+                            <label>Enter liters produced from Shade B<input min="0" type="number" id="shadeData3" name="shadeC" required/></label>
+                            <label>Enter liters produced from Shade D<input min="0" type="number" id="shadeData4" name="shadeD" required/></label>
+                            <label>Enter liters produced from Shade E<input min="0" type="number" id="shadeData5" name="shadeE" required/></label>
+                            <label>Enter liters produced from Shade F<input min="0" type="number" id="shadeData6" name="shadeF" required/></label>
+                        </fieldset>
+                        <button onclick="reportGenerate" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="output">
+                    <h1 id="title">projected Outcomes</h1>
+                    <hr>
+                    <p id="formData"></p>
+                </div>
+            </div>
+        </main>
+        <script src="JS/index.js" type="text/javascript"></script>
     </body>
 </html>
