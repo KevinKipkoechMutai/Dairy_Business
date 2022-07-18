@@ -21,23 +21,23 @@ document.getElementById('formData').innerHTML += "<p>Your production from Shed E
 document.getElementById('formData').innerHTML += "<p>Your production from Shed F is " + data.shadeData6 +" liters today</p>";
 
 
-ailyIncome = sumData * 45;
+dailyIncome = totalSum * 45;
 
-    document.getElementById("formData").innerHTML += "<Br>"
+document.getElementById("formData").innerHTML += "<Br>"
 
-    document.getElementById("formData").innerHTML += "<hr>"
+document.getElementById("formData").innerHTML += "<hr>"
 
-    document.getElementById("formData").innerHTML += "<p>Total daily income is Ksh. " + dailyIncome + " </p>";
+document.getElementById("formData").innerHTML += "<p>Total daily income is Ksh. " + dailyIncome + " </p>";
 
-    document.getElementById("formData").innerHTML += "<hr>"
+document.getElementById("formData").innerHTML += "<hr>"
 
-    weeklyIncome = dailyIncome * 7;
+weeklyIncome = dailyIncome * 7;
 
-    document.getElementById("formData").innerHTML += "<p>Total weekly income is Ksh. " + weeklyIncome + " </p>";
+document.getElementById("formData").innerHTML += "<p>Total weekly income is Ksh. " + weeklyIncome + " </p>";
 
-    document.getElementById("formData").innerHTML += "<hr>"
+document.getElementById("formData").innerHTML += "<hr>"
 
-    document.getElementById("formData").innerHTML += "<Br>"
+document.getElementById("formData").innerHTML += "<Br>"
 
 
     incomeJanuary = dailyIncome * 31;
