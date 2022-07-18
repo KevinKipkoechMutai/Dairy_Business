@@ -78,6 +78,10 @@ form{
     flex-direction: column;
 }
 
+.output{
+    margin: 15px auto;
+}
+
 button{
     color: #3b3b4f;
     margin: 10px 0 0 0;
