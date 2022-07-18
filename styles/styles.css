@@ -55,7 +55,7 @@ nav{
     display: flex;
     flex-direction: row;
     margin: 25px auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 fieldset{
